@@ -485,7 +485,7 @@ def main(page: ft.Page):
                         text="Repositório GitHub",
                         icon=ft.icons.CODE,
                         on_click=lambda e: page.launch_url("https://github.com/Leandro-dsm/FlowOrder"),
-                        style=ft.ButtonStyle(shape=ft.RoundedRectangleBorder(radius=8))
+                        style=ft.ButtonStyle(bgcolor=COR_PRIMARIA, color=ft.colors.WHITE, shape=ft.RoundedRectangleBorder(radius=8))
                     ),
                     ft.ElevatedButton(
                         text="Swagger API",
